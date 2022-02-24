@@ -144,6 +144,11 @@ footer {
   color: inherit;
 }
 
+.linkList > ul > li > a:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
 .linkImg > img {
   width: 48px;
   height: 48px;
