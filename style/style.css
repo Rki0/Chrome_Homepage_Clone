@@ -19,7 +19,7 @@ header {
 header > div > a {
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 12px;
 }
 
@@ -28,14 +28,15 @@ header > div > a:hover {
 }
 
 .gmail-image-link {
-  padding: 0px 10px;
+  margin: 0px 10px;
 }
 
 .menuIcon {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 8px 8px;
+  margin: 8px;
+  margin-right: 10px;
   border-radius: 50%;
 }
 
@@ -52,8 +53,8 @@ header > div > a:hover {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -123,15 +124,16 @@ footer {
 }
 
 .linkList > ul {
-  width: 500px;
+  width: 600px;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0;
+  margin: 0;
 }
 
 .linkList > ul > li {
-  width: 112px;
+  width: 100px;
   height: 112px;
   margin: 0px 10px;
 }
