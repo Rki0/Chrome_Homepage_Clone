@@ -6,7 +6,7 @@ body {
 }
 
 /*header 부분*/
-header {
+/* header {
   width: 100%;
   height: 48px;
   padding: 8px;
@@ -70,6 +70,43 @@ header > div > a:hover {
   height: 32px;
   border: none;
   border-radius: 50%;
+} */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-right: 15px;
+}
+
+.gmail {
+  font-size: 14px;
+  font-weight: bold;
+
+  margin-right: 15px;
+}
+
+.imageText {
+  font-size: 14px;
+  font-weight: bold;
+
+  margin-right: 15px;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+
+  margin-right: 15px;
+}
+
+.userId {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
 }
 
 /* main 부분 */
@@ -112,8 +149,40 @@ main {
   cursor: pointer;
 }
 
+.chromeIconList {
+  width: 560px;
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.chromeIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-right: 10px;
+}
+
+.chromeImage {
+  width: 48px;
+  height: 48px;
+}
+
+.chromeText {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* footer 부분 */
-footer {
+/* footer {
   margin-top: 32px;
 }
 
@@ -158,4 +227,4 @@ footer {
 
 .linkName {
   font-size: 14px;
-}
+} */
